@@ -1,0 +1,33 @@
+* {
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  background-color: #f4f4;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+}
+
+h3 {
+  font-size: 2.3rem;
+  color: orangered;
+}
+
+.unit-content h4 {
+  color: yellow;
+}
+
+.unit-content li {
+  color: rgb(237, 237, 250);
+  list-style-type: symbols(); /* -> symbol */
+}
