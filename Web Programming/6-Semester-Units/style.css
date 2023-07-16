@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  color: orangered;
+  font-size: 2.2rem;
+}
+
+.year-of-study {
+  width: 88%;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
+}
+
+.units-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.units-cards article {
+  padding: 3rem 3rem;
+  background-color: rgb(159, 149, 149);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 6%;
+  transition: all 400ms linear;
+}
+
+.units-cards article:hover {
+  background-color: rgb(176, 176, 164);
+}
+article h3 {
+  color: rgb(36, 238, 14);
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+article button {
+  padding: 0.5rem 0.3rem;
+  color: rgb(150, 36, 13);
+  background-color: rgb(22, 34, 30);
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+
+article button:hover {
+  background-color: orange;
+  color: black;
+}
