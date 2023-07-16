@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name</title>
+</head>
+
+<h3 id="name"></h3>
+<p id="reg_no"></p>
+
+<body>
+    <script>
+        var personal_name = window.prompt("Enter Your Name")
+        var reg_number = window.prompt("Enter Your age");
+
+        console.log(personal_name, reg_number)
+
+        document.getElementById('name').innerHTML = personal_name;
+        document.getElementById('reg_no').innerHTML = reg_number;
+    </script>
+</body>
+
+</html>
